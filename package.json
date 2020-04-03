@@ -8,8 +8,7 @@
     "clsx": "latest",
     "next": "latest",
     "react": "latest",
-    "react-dom": "latest",
-    "minimist": "latest"
+    "react-dom": "latest"
   },
   "scripts": {
     "dev": "next",
