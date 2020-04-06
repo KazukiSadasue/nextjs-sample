@@ -1,8 +1,8 @@
 import React from 'react';
 import Container from '@material-ui/core/Container';
 import Box from '@material-ui/core/Box';
-import { SearchInput } from '../src/components/molecules/SearchInput';
-import { TrendWord } from '../src/components/molecules/TrendWord';
+import SearchInput from '../src/components/SearchInput';
+import TrendWord from '../src/components/TrendWord';
 
 export default function Index() {
   return (

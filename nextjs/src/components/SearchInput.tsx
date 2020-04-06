@@ -27,7 +27,7 @@ const useStyles = makeStyles((theme: Theme) =>
   }),
 );
 
-export function SearchInput() {
+export default function SearchInput() {
   const classes = useStyles();
 
   return (
