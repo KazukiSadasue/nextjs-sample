@@ -1,7 +1,8 @@
 import React from 'react';
-import Router from 'next/router';
 import { makeStyles } from '@material-ui/core/styles';
 import { Button, Card, CardContent, TextField, Box } from '@material-ui/core';
+import { useDispatch } from 'react-redux';
+import { login } from '../stores/user';
 
 const useStyles = makeStyles({
   root: {
@@ -15,6 +16,12 @@ const useStyles = makeStyles({
 
 export default function LoginCard() {
   const classes = useStyles();
+  const dispatch = useDispatch();
+
+  // ログインボタンが押された場合
+  const onClickLogin = () => {
+    dispatch(login());
+  };
 
   return (
     <Card className={classes.root}>
@@ -24,7 +31,7 @@ export default function LoginCard() {
             <TextField className={classes.input} id="standard-basic" label="ログインID" />
             <TextField className={classes.input} id="standard-basic" label="パスワード" />
             <Box display="flex" justifyContent="center" m={5}>
-              <Button variant="contained" color="secondary" onClick={() => Router.push('/home')}>
+              <Button variant="contained" color="secondary" onClick={onClickLogin}>
                 ログイン
               </Button>
             </Box>
