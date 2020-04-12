@@ -4,19 +4,66 @@ const cors = require("cors");
 const { graphqlExpress, graphiqlExpress } = require("apollo-server-express");
 const { makeExecutableSchema } = require("graphql-tools");
 
-// モックデータ
-const books = [
+// FTモックデータ
+const findTrend = [
     {
-        title: "Harry Potter and the Sorcerer's stone",
-        author: "J.K. Rowling",
-        price: 2000
-    },
-    {
-        title: "Jurassic Park",
-        author: "Michael Crichton",
-        price: 3000
+        "word": "コロナ",
+        "suggests": [
+            {
+                "word": "リモート",
+                "child_suggests": [
+                    {
+                        "word": "Zoom",
+                        "short_arrow": 0,
+                        "midium_arrow": 1,
+                        "long_arrow": 2,
+                        "graph": [
+                            {
+                                "date": "20200326",
+                                "value": 100
+                            },
+                            {
+                                "date": "20200327",
+                                "value": 99
+                            },
+                            {
+                                "date": "20200328",
+                                "value": 99
+                            },
+                            {
+                                "date": "20200329",
+                                "value": 100
+                            },
+                            {
+                                "date": "20200330",
+                                "value": 99
+                            },
+                            {
+                                "date": "20200331",
+                                "value": 95
+                            },
+                            {
+                                "date": "20200401",
+                                "value": 100
+                            },
+                            {
+                                "date": "20200402",
+                                "value": 99
+                            },
+                            {
+                                "date": "20200403",
+                                "value": 98
+                            },
+                        ]
+                    },
+                ]
+            }
+        ]
     }
 ];
+
+// user認証モックデータ
+const verifyUser = true;
 
 // GraphQLのスキーマ情報
 const typeDefs = `
@@ -68,7 +115,8 @@ type Query {
 // resolver(データ処理)の設定
 // DBからデータを取得したり、APIを呼び出したりする処理もここで記述
 const resolvers = {
-    Query: { books: () => books }
+    // Query: { verifyUser: () => verifyUser },
+    Query: { findTrend: () => findTrend }
 };
 
 // GraphQL の Schema 設定
