@@ -115,7 +115,7 @@ type Query {
 // resolver(データ処理)の設定
 // DBからデータを取得したり、APIを呼び出したりする処理もここで記述
 const resolvers = {
-    // Query: { verifyUser: () => verifyUser },
+    Query: { verifyUser: () => verifyUser },
     Query: { findTrend: () => findTrend }
 };
 
