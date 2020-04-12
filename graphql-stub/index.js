@@ -20,8 +20,49 @@ const books = [
 
 // GraphQLのスキーマ情報
 const typeDefs = `
-  type Query { books: [Book] }
-  type Book { title: String, author: String, price: Int }
+type Query {
+    verifyUser(user: User!): Boolean!
+    findTrend(word: String!): [Suggest!]!
+  }
+
+  type Mutation {
+    createUser(user: User!): Boolean!
+  }
+
+  input User {
+    email: String!
+    password: String!
+  }
+
+  type Suggest {
+    word: String!
+    childSuggests: [ChildSuggest!]!
+  }
+
+  type ChildSuggest {
+    word: String!
+    growth: Growth!
+    graphs: [Graph!]!
+  }
+
+  type Growth {
+    short: Arrow!
+    midium: Arrow!
+    long: Arrow!
+  }
+
+  type Graph {
+    date: DateTime!
+    value: Float!
+  }
+
+  enum Arrow {
+    Up
+    Flat
+    Down
+  }
+
+  scalar DateTime
 `;
 
 // resolver(データ処理)の設定
