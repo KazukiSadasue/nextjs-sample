@@ -8,7 +8,7 @@ const { makeExecutableSchema } = require("graphql-tools");
 const typeDefs = `
   type Query {
     verifyUser(user: User!): Boolean!
-    findTrend(word: String!): [Suggest!]!
+    findTrend(word: String!): [Suggests!]!
   }
 
   type Mutation {
@@ -96,57 +96,56 @@ const verifyUser = true;
 // FTモックデータ
 const findTrend = [
     {
-        "word": "コロナ",
-        "Suggests": [
+        "word": "リモート",
+        "childSuggests": [
             {
-                "word": "リモート",
-                "child_suggests": [
+                "word": "Zoom",
+                "growth": [
                     {
-                        "word": "Zoom",
-                        "short_arrow": 0,
-                        "midium_arrow": 1,
-                        "long_arrow": 2,
-                        "graph": [
-                            {
-                                "date": "20200326",
-                                "value": 100
-                            },
-                            {
-                                "date": "20200327",
-                                "value": 99
-                            },
-                            {
-                                "date": "20200328",
-                                "value": 99
-                            },
-                            {
-                                "date": "20200329",
-                                "value": 100
-                            },
-                            {
-                                "date": "20200330",
-                                "value": 99
-                            },
-                            {
-                                "date": "20200331",
-                                "value": 95
-                            },
-                            {
-                                "date": "20200401",
-                                "value": 100
-                            },
-                            {
-                                "date": "20200402",
-                                "value": 99
-                            },
-                            {
-                                "date": "20200403",
-                                "value": 98
-                            },
-                        ]
+                        "short": "Up",
+                        "midium": "Flat",
+                        "long": "Down",
+                    }
+                ],
+                "graph": [
+                    {
+                        "date": "20200326",
+                        "value": 100
+                    },
+                    {
+                        "date": "20200327",
+                        "value": 99
+                    },
+                    {
+                        "date": "20200328",
+                        "value": 99
+                    },
+                    {
+                        "date": "20200329",
+                        "value": 100
+                    },
+                    {
+                        "date": "20200330",
+                        "value": 99
+                    },
+                    {
+                        "date": "20200331",
+                        "value": 95
+                    },
+                    {
+                        "date": "20200401",
+                        "value": 100
+                    },
+                    {
+                        "date": "20200402",
+                        "value": 99
+                    },
+                    {
+                        "date": "20200403",
+                        "value": 98
                     },
                 ]
-            }
+            },
         ]
     }
 ];
