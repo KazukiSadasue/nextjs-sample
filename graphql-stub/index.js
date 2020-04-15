@@ -8,7 +8,7 @@ const { makeExecutableSchema } = require("graphql-tools");
 const typeDefs = `
   type Query {
     verifyUser(user: User!): Boolean!
-    findTrend(word: String!): [Suggests!]!
+    findTrend(word: String!): [Suggest!]!
   }
 
   type Mutation {
@@ -20,9 +20,9 @@ const typeDefs = `
     password: String!
   }
 
-  type Suggests {
+  type Suggest {
     word: String!
-    childSuggests: [ChildSuggest!]!
+    childSuggest: [ChildSuggest!]!
   }
 
   type ChildSuggest {
@@ -97,17 +97,16 @@ const verifyUser = true;
 const findTrend = [
     {
         "word": "リモート",
-        "childSuggests": [
+        "childSuggest": [
             {
                 "word": "Zoom",
-                "growth": [
-                    {
-                        "short": "Up",
-                        "midium": "Flat",
-                        "long": "Down",
-                    }
-                ],
-                "graph": [
+                "growth":
+                {
+                    "short": "Up",
+                    "midium": "Flat",
+                    "long": "Down"
+                },
+                "graphs": [
                     {
                         "date": "20200326",
                         "value": 100
@@ -143,9 +142,9 @@ const findTrend = [
                     {
                         "date": "20200403",
                         "value": 98
-                    },
+                    }
                 ]
-            },
+            }
         ]
     }
 ];
