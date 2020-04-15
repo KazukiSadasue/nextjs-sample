@@ -100,11 +100,1645 @@ const findTrend = [
         "childSuggest": [
             {
                 "word": "Zoom",
-                "growth":
-                {
+                "growth": {
                     "short": "Up",
                     "midium": "Flat",
                     "long": "Down"
+                },
+                "graphs": [
+                    {
+                        "date": "20200326",
+                        "value": 100
+                    },
+                    {
+                        "date": "20200327",
+                        "value": 99
+                    },
+                    {
+                        "date": "20200328",
+                        "value": 99
+                    },
+                    {
+                        "date": "20200329",
+                        "value": 100
+                    },
+                    {
+                        "date": "20200330",
+                        "value": 99
+                    },
+                    {
+                        "date": "20200331",
+                        "value": 95
+                    },
+                    {
+                        "date": "20200401",
+                        "value": 100
+                    },
+                    {
+                        "date": "20200402",
+                        "value": 99
+                    },
+                    {
+                        "date": "20200403",
+                        "value": 98
+                    }
+                ]
+            },
+            {
+                "word": "Skype",
+                "growth": {
+                    "short": "Up",
+                    "midium": "Up",
+                    "long": "Flat"
+                },
+                "graphs": [
+                    {
+                        "date": "20200326",
+                        "value": 100
+                    },
+                    {
+                        "date": "20200327",
+                        "value": 99
+                    },
+                    {
+                        "date": "20200328",
+                        "value": 99
+                    },
+                    {
+                        "date": "20200329",
+                        "value": 100
+                    },
+                    {
+                        "date": "20200330",
+                        "value": 99
+                    },
+                    {
+                        "date": "20200331",
+                        "value": 95
+                    },
+                    {
+                        "date": "20200401",
+                        "value": 100
+                    },
+                    {
+                        "date": "20200402",
+                        "value": 99
+                    },
+                    {
+                        "date": "20200403",
+                        "value": 98
+                    }
+                ]
+            },
+            {
+                "word": "やり方",
+                "growth": {
+                    "short": "Up",
+                    "midium": "Up",
+                    "long": "Flat"
+                },
+                "graphs": [
+                    {
+                        "date": "20200326",
+                        "value": 100
+                    },
+                    {
+                        "date": "20200327",
+                        "value": 99
+                    },
+                    {
+                        "date": "20200328",
+                        "value": 99
+                    },
+                    {
+                        "date": "20200329",
+                        "value": 100
+                    },
+                    {
+                        "date": "20200330",
+                        "value": 99
+                    },
+                    {
+                        "date": "20200331",
+                        "value": 95
+                    },
+                    {
+                        "date": "20200401",
+                        "value": 100
+                    },
+                    {
+                        "date": "20200402",
+                        "value": 99
+                    },
+                    {
+                        "date": "20200403",
+                        "value": 98
+                    }
+                ]
+            },
+            {
+                "word": "無料",
+                "growth": {
+                    "short": "Up",
+                    "midium": "Up",
+                    "long": "Flat"
+                },
+                "graphs": [
+                    {
+                        "date": "20200326",
+                        "value": 100
+                    },
+                    {
+                        "date": "20200327",
+                        "value": 99
+                    },
+                    {
+                        "date": "20200328",
+                        "value": 99
+                    },
+                    {
+                        "date": "20200329",
+                        "value": 100
+                    },
+                    {
+                        "date": "20200330",
+                        "value": 99
+                    },
+                    {
+                        "date": "20200331",
+                        "value": 95
+                    },
+                    {
+                        "date": "20200401",
+                        "value": 100
+                    },
+                    {
+                        "date": "20200402",
+                        "value": 99
+                    },
+                    {
+                        "date": "20200403",
+                        "value": 98
+                    }
+                ]
+            },
+            {
+                "word": "ツール",
+                "growth": {
+                    "short": "Up",
+                    "midium": "Up",
+                    "long": "Flat"
+                },
+                "graphs": [
+                    {
+                        "date": "20200326",
+                        "value": 100
+                    },
+                    {
+                        "date": "20200327",
+                        "value": 99
+                    },
+                    {
+                        "date": "20200328",
+                        "value": 99
+                    },
+                    {
+                        "date": "20200329",
+                        "value": 100
+                    },
+                    {
+                        "date": "20200330",
+                        "value": 99
+                    },
+                    {
+                        "date": "20200331",
+                        "value": 95
+                    },
+                    {
+                        "date": "20200401",
+                        "value": 100
+                    },
+                    {
+                        "date": "20200402",
+                        "value": 99
+                    },
+                    {
+                        "date": "20200403",
+                        "value": 98
+                    }
+                ]
+            },
+            {
+                "word": "コツ",
+                "growth": {
+                    "short": "Up",
+                    "midium": "Up",
+                    "long": "Flat"
+                },
+                "graphs": [
+                    {
+                        "date": "20200326",
+                        "value": 100
+                    },
+                    {
+                        "date": "20200327",
+                        "value": 99
+                    },
+                    {
+                        "date": "20200328",
+                        "value": 99
+                    },
+                    {
+                        "date": "20200329",
+                        "value": 100
+                    },
+                    {
+                        "date": "20200330",
+                        "value": 99
+                    },
+                    {
+                        "date": "20200331",
+                        "value": 95
+                    },
+                    {
+                        "date": "20200401",
+                        "value": 100
+                    },
+                    {
+                        "date": "20200402",
+                        "value": 99
+                    },
+                    {
+                        "date": "20200403",
+                        "value": 98
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "word": "フリーランス",
+        "childSuggest": [
+            {
+                "word": "保証",
+                "growth": {
+                    "short": "Up",
+                    "midium": "Flat",
+                    "long": "Down"
+                },
+                "graphs": [
+                    {
+                        "date": "20200326",
+                        "value": 100
+                    },
+                    {
+                        "date": "20200327",
+                        "value": 99
+                    },
+                    {
+                        "date": "20200328",
+                        "value": 99
+                    },
+                    {
+                        "date": "20200329",
+                        "value": 100
+                    },
+                    {
+                        "date": "20200330",
+                        "value": 99
+                    },
+                    {
+                        "date": "20200331",
+                        "value": 95
+                    },
+                    {
+                        "date": "20200401",
+                        "value": 100
+                    },
+                    {
+                        "date": "20200402",
+                        "value": 99
+                    },
+                    {
+                        "date": "20200403",
+                        "value": 98
+                    }
+                ]
+            },
+            {
+                "word": "SE",
+                "growth": {
+                    "short": "Up",
+                    "midium": "Up",
+                    "long": "Flat"
+                },
+                "graphs": [
+                    {
+                        "date": "20200326",
+                        "value": 100
+                    },
+                    {
+                        "date": "20200327",
+                        "value": 99
+                    },
+                    {
+                        "date": "20200328",
+                        "value": 99
+                    },
+                    {
+                        "date": "20200329",
+                        "value": 100
+                    },
+                    {
+                        "date": "20200330",
+                        "value": 99
+                    },
+                    {
+                        "date": "20200331",
+                        "value": 95
+                    },
+                    {
+                        "date": "20200401",
+                        "value": 100
+                    },
+                    {
+                        "date": "20200402",
+                        "value": 99
+                    },
+                    {
+                        "date": "20200403",
+                        "value": 98
+                    }
+                ]
+            },
+            {
+                "word": "未経験",
+                "growth": {
+                    "short": "Up",
+                    "midium": "Up",
+                    "long": "Flat"
+                },
+                "graphs": [
+                    {
+                        "date": "20200326",
+                        "value": 100
+                    },
+                    {
+                        "date": "20200327",
+                        "value": 99
+                    },
+                    {
+                        "date": "20200328",
+                        "value": 99
+                    },
+                    {
+                        "date": "20200329",
+                        "value": 100
+                    },
+                    {
+                        "date": "20200330",
+                        "value": 99
+                    },
+                    {
+                        "date": "20200331",
+                        "value": 95
+                    },
+                    {
+                        "date": "20200401",
+                        "value": 100
+                    },
+                    {
+                        "date": "20200402",
+                        "value": 99
+                    },
+                    {
+                        "date": "20200403",
+                        "value": 98
+                    }
+                ]
+            },
+            {
+                "word": "とは",
+                "growth": {
+                    "short": "Up",
+                    "midium": "Up",
+                    "long": "Flat"
+                },
+                "graphs": [
+                    {
+                        "date": "20200326",
+                        "value": 100
+                    },
+                    {
+                        "date": "20200327",
+                        "value": 99
+                    },
+                    {
+                        "date": "20200328",
+                        "value": 99
+                    },
+                    {
+                        "date": "20200329",
+                        "value": 100
+                    },
+                    {
+                        "date": "20200330",
+                        "value": 99
+                    },
+                    {
+                        "date": "20200331",
+                        "value": 95
+                    },
+                    {
+                        "date": "20200401",
+                        "value": 100
+                    },
+                    {
+                        "date": "20200402",
+                        "value": 99
+                    },
+                    {
+                        "date": "20200403",
+                        "value": 98
+                    }
+                ]
+            },
+            {
+                "word": "ものづくり",
+                "growth": {
+                    "short": "Up",
+                    "midium": "Up",
+                    "long": "Flat"
+                },
+                "graphs": [
+                    {
+                        "date": "20200326",
+                        "value": 100
+                    },
+                    {
+                        "date": "20200327",
+                        "value": 99
+                    },
+                    {
+                        "date": "20200328",
+                        "value": 99
+                    },
+                    {
+                        "date": "20200329",
+                        "value": 100
+                    },
+                    {
+                        "date": "20200330",
+                        "value": 99
+                    },
+                    {
+                        "date": "20200331",
+                        "value": 95
+                    },
+                    {
+                        "date": "20200401",
+                        "value": 100
+                    },
+                    {
+                        "date": "20200402",
+                        "value": 99
+                    },
+                    {
+                        "date": "20200403",
+                        "value": 98
+                    }
+                ]
+            },
+            {
+                "word": "コツ",
+                "growth": {
+                    "short": "Up",
+                    "midium": "Up",
+                    "long": "Flat"
+                },
+                "graphs": [
+                    {
+                        "date": "20200326",
+                        "value": 100
+                    },
+                    {
+                        "date": "20200327",
+                        "value": 99
+                    },
+                    {
+                        "date": "20200328",
+                        "value": 99
+                    },
+                    {
+                        "date": "20200329",
+                        "value": 100
+                    },
+                    {
+                        "date": "20200330",
+                        "value": 99
+                    },
+                    {
+                        "date": "20200331",
+                        "value": 95
+                    },
+                    {
+                        "date": "20200401",
+                        "value": 100
+                    },
+                    {
+                        "date": "20200402",
+                        "value": 99
+                    },
+                    {
+                        "date": "20200403",
+                        "value": 98
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "word": "マスク",
+        "childSuggest": [
+            {
+                "word": "Amazon",
+                "growth": {
+                    "short": "Up",
+                    "midium": "Flat",
+                    "long": "Down"
+                },
+                "graphs": [
+                    {
+                        "date": "20200326",
+                        "value": 100
+                    },
+                    {
+                        "date": "20200327",
+                        "value": 99
+                    },
+                    {
+                        "date": "20200328",
+                        "value": 99
+                    },
+                    {
+                        "date": "20200329",
+                        "value": 100
+                    },
+                    {
+                        "date": "20200330",
+                        "value": 99
+                    },
+                    {
+                        "date": "20200331",
+                        "value": 95
+                    },
+                    {
+                        "date": "20200401",
+                        "value": 100
+                    },
+                    {
+                        "date": "20200402",
+                        "value": 99
+                    },
+                    {
+                        "date": "20200403",
+                        "value": 98
+                    }
+                ]
+            },
+            {
+                "word": "fitty",
+                "growth": {
+                    "short": "Up",
+                    "midium": "Up",
+                    "long": "Flat"
+                },
+                "graphs": [
+                    {
+                        "date": "20200326",
+                        "value": 100
+                    },
+                    {
+                        "date": "20200327",
+                        "value": 99
+                    },
+                    {
+                        "date": "20200328",
+                        "value": 99
+                    },
+                    {
+                        "date": "20200329",
+                        "value": 100
+                    },
+                    {
+                        "date": "20200330",
+                        "value": 99
+                    },
+                    {
+                        "date": "20200331",
+                        "value": 95
+                    },
+                    {
+                        "date": "20200401",
+                        "value": 100
+                    },
+                    {
+                        "date": "20200402",
+                        "value": 99
+                    },
+                    {
+                        "date": "20200403",
+                        "value": 98
+                    }
+                ]
+            },
+            {
+                "word": "売り切れ",
+                "growth": {
+                    "short": "Up",
+                    "midium": "Up",
+                    "long": "Flat"
+                },
+                "graphs": [
+                    {
+                        "date": "20200326",
+                        "value": 100
+                    },
+                    {
+                        "date": "20200327",
+                        "value": 99
+                    },
+                    {
+                        "date": "20200328",
+                        "value": 99
+                    },
+                    {
+                        "date": "20200329",
+                        "value": 100
+                    },
+                    {
+                        "date": "20200330",
+                        "value": 99
+                    },
+                    {
+                        "date": "20200331",
+                        "value": 95
+                    },
+                    {
+                        "date": "20200401",
+                        "value": 100
+                    },
+                    {
+                        "date": "20200402",
+                        "value": 99
+                    },
+                    {
+                        "date": "20200403",
+                        "value": 98
+                    }
+                ]
+            },
+            {
+                "word": "インフルエンザ",
+                "growth": {
+                    "short": "Up",
+                    "midium": "Up",
+                    "long": "Flat"
+                },
+                "graphs": [
+                    {
+                        "date": "20200326",
+                        "value": 100
+                    },
+                    {
+                        "date": "20200327",
+                        "value": 99
+                    },
+                    {
+                        "date": "20200328",
+                        "value": 99
+                    },
+                    {
+                        "date": "20200329",
+                        "value": 100
+                    },
+                    {
+                        "date": "20200330",
+                        "value": 99
+                    },
+                    {
+                        "date": "20200331",
+                        "value": 95
+                    },
+                    {
+                        "date": "20200401",
+                        "value": 100
+                    },
+                    {
+                        "date": "20200402",
+                        "value": 99
+                    },
+                    {
+                        "date": "20200403",
+                        "value": 98
+                    }
+                ]
+            },
+            {
+                "word": "薬局",
+                "growth": {
+                    "short": "Up",
+                    "midium": "Up",
+                    "long": "Flat"
+                },
+                "graphs": [
+                    {
+                        "date": "20200326",
+                        "value": 100
+                    },
+                    {
+                        "date": "20200327",
+                        "value": 99
+                    },
+                    {
+                        "date": "20200328",
+                        "value": 99
+                    },
+                    {
+                        "date": "20200329",
+                        "value": 100
+                    },
+                    {
+                        "date": "20200330",
+                        "value": 99
+                    },
+                    {
+                        "date": "20200331",
+                        "value": 95
+                    },
+                    {
+                        "date": "20200401",
+                        "value": 100
+                    },
+                    {
+                        "date": "20200402",
+                        "value": 99
+                    },
+                    {
+                        "date": "20200403",
+                        "value": 98
+                    }
+                ]
+            },
+            {
+                "word": "購入",
+                "growth": {
+                    "short": "Up",
+                    "midium": "Up",
+                    "long": "Flat"
+                },
+                "graphs": [
+                    {
+                        "date": "20200326",
+                        "value": 100
+                    },
+                    {
+                        "date": "20200327",
+                        "value": 99
+                    },
+                    {
+                        "date": "20200328",
+                        "value": 99
+                    },
+                    {
+                        "date": "20200329",
+                        "value": 100
+                    },
+                    {
+                        "date": "20200330",
+                        "value": 99
+                    },
+                    {
+                        "date": "20200331",
+                        "value": 95
+                    },
+                    {
+                        "date": "20200401",
+                        "value": 100
+                    },
+                    {
+                        "date": "20200402",
+                        "value": 99
+                    },
+                    {
+                        "date": "20200403",
+                        "value": 98
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "word": "収束",
+        "childSuggest": [
+            {
+                "word": "いつ",
+                "growth": {
+                    "short": "Up",
+                    "midium": "Flat",
+                    "long": "Down"
+                },
+                "graphs": [
+                    {
+                        "date": "20200326",
+                        "value": 100
+                    },
+                    {
+                        "date": "20200327",
+                        "value": 99
+                    },
+                    {
+                        "date": "20200328",
+                        "value": 99
+                    },
+                    {
+                        "date": "20200329",
+                        "value": 100
+                    },
+                    {
+                        "date": "20200330",
+                        "value": 99
+                    },
+                    {
+                        "date": "20200331",
+                        "value": 95
+                    },
+                    {
+                        "date": "20200401",
+                        "value": 100
+                    },
+                    {
+                        "date": "20200402",
+                        "value": 99
+                    },
+                    {
+                        "date": "20200403",
+                        "value": 98
+                    }
+                ]
+            },
+            {
+                "word": "しない",
+                "growth": {
+                    "short": "Up",
+                    "midium": "Up",
+                    "long": "Flat"
+                },
+                "graphs": [
+                    {
+                        "date": "20200326",
+                        "value": 100
+                    },
+                    {
+                        "date": "20200327",
+                        "value": 99
+                    },
+                    {
+                        "date": "20200328",
+                        "value": 99
+                    },
+                    {
+                        "date": "20200329",
+                        "value": 100
+                    },
+                    {
+                        "date": "20200330",
+                        "value": 99
+                    },
+                    {
+                        "date": "20200331",
+                        "value": 95
+                    },
+                    {
+                        "date": "20200401",
+                        "value": 100
+                    },
+                    {
+                        "date": "20200402",
+                        "value": 99
+                    },
+                    {
+                        "date": "20200403",
+                        "value": 98
+                    }
+                ]
+            },
+            {
+                "word": "終息",
+                "growth": {
+                    "short": "Up",
+                    "midium": "Up",
+                    "long": "Flat"
+                },
+                "graphs": [
+                    {
+                        "date": "20200326",
+                        "value": 100
+                    },
+                    {
+                        "date": "20200327",
+                        "value": 99
+                    },
+                    {
+                        "date": "20200328",
+                        "value": 99
+                    },
+                    {
+                        "date": "20200329",
+                        "value": 100
+                    },
+                    {
+                        "date": "20200330",
+                        "value": 99
+                    },
+                    {
+                        "date": "20200331",
+                        "value": 95
+                    },
+                    {
+                        "date": "20200401",
+                        "value": 100
+                    },
+                    {
+                        "date": "20200402",
+                        "value": 99
+                    },
+                    {
+                        "date": "20200403",
+                        "value": 98
+                    }
+                ]
+            },
+            {
+                "word": "政府",
+                "growth": {
+                    "short": "Up",
+                    "midium": "Up",
+                    "long": "Flat"
+                },
+                "graphs": [
+                    {
+                        "date": "20200326",
+                        "value": 100
+                    },
+                    {
+                        "date": "20200327",
+                        "value": 99
+                    },
+                    {
+                        "date": "20200328",
+                        "value": 99
+                    },
+                    {
+                        "date": "20200329",
+                        "value": 100
+                    },
+                    {
+                        "date": "20200330",
+                        "value": 99
+                    },
+                    {
+                        "date": "20200331",
+                        "value": 95
+                    },
+                    {
+                        "date": "20200401",
+                        "value": 100
+                    },
+                    {
+                        "date": "20200402",
+                        "value": 99
+                    },
+                    {
+                        "date": "20200403",
+                        "value": 98
+                    }
+                ]
+            },
+            {
+                "word": "まだ",
+                "growth": {
+                    "short": "Up",
+                    "midium": "Up",
+                    "long": "Flat"
+                },
+                "graphs": [
+                    {
+                        "date": "20200326",
+                        "value": 100
+                    },
+                    {
+                        "date": "20200327",
+                        "value": 99
+                    },
+                    {
+                        "date": "20200328",
+                        "value": 99
+                    },
+                    {
+                        "date": "20200329",
+                        "value": 100
+                    },
+                    {
+                        "date": "20200330",
+                        "value": 99
+                    },
+                    {
+                        "date": "20200331",
+                        "value": 95
+                    },
+                    {
+                        "date": "20200401",
+                        "value": 100
+                    },
+                    {
+                        "date": "20200402",
+                        "value": 99
+                    },
+                    {
+                        "date": "20200403",
+                        "value": 98
+                    }
+                ]
+            },
+            {
+                "word": "4月",
+                "growth": {
+                    "short": "Up",
+                    "midium": "Up",
+                    "long": "Flat"
+                },
+                "graphs": [
+                    {
+                        "date": "20200326",
+                        "value": 100
+                    },
+                    {
+                        "date": "20200327",
+                        "value": 99
+                    },
+                    {
+                        "date": "20200328",
+                        "value": 99
+                    },
+                    {
+                        "date": "20200329",
+                        "value": 100
+                    },
+                    {
+                        "date": "20200330",
+                        "value": 99
+                    },
+                    {
+                        "date": "20200331",
+                        "value": 95
+                    },
+                    {
+                        "date": "20200401",
+                        "value": 100
+                    },
+                    {
+                        "date": "20200402",
+                        "value": 99
+                    },
+                    {
+                        "date": "20200403",
+                        "value": 98
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "word": "オリンピック",
+        "childSuggest": [
+            {
+                "word": "延期",
+                "growth": {
+                    "short": "Up",
+                    "midium": "Flat",
+                    "long": "Down"
+                },
+                "graphs": [
+                    {
+                        "date": "20200326",
+                        "value": 100
+                    },
+                    {
+                        "date": "20200327",
+                        "value": 99
+                    },
+                    {
+                        "date": "20200328",
+                        "value": 99
+                    },
+                    {
+                        "date": "20200329",
+                        "value": 100
+                    },
+                    {
+                        "date": "20200330",
+                        "value": 99
+                    },
+                    {
+                        "date": "20200331",
+                        "value": 95
+                    },
+                    {
+                        "date": "20200401",
+                        "value": 100
+                    },
+                    {
+                        "date": "20200402",
+                        "value": 99
+                    },
+                    {
+                        "date": "20200403",
+                        "value": 98
+                    }
+                ]
+            },
+            {
+                "word": "中止",
+                "growth": {
+                    "short": "Up",
+                    "midium": "Up",
+                    "long": "Flat"
+                },
+                "graphs": [
+                    {
+                        "date": "20200326",
+                        "value": 100
+                    },
+                    {
+                        "date": "20200327",
+                        "value": 99
+                    },
+                    {
+                        "date": "20200328",
+                        "value": 99
+                    },
+                    {
+                        "date": "20200329",
+                        "value": 100
+                    },
+                    {
+                        "date": "20200330",
+                        "value": 99
+                    },
+                    {
+                        "date": "20200331",
+                        "value": 95
+                    },
+                    {
+                        "date": "20200401",
+                        "value": 100
+                    },
+                    {
+                        "date": "20200402",
+                        "value": 99
+                    },
+                    {
+                        "date": "20200403",
+                        "value": 98
+                    }
+                ]
+            },
+            {
+                "word": "前例",
+                "growth": {
+                    "short": "Up",
+                    "midium": "Up",
+                    "long": "Flat"
+                },
+                "graphs": [
+                    {
+                        "date": "20200326",
+                        "value": 100
+                    },
+                    {
+                        "date": "20200327",
+                        "value": 99
+                    },
+                    {
+                        "date": "20200328",
+                        "value": 99
+                    },
+                    {
+                        "date": "20200329",
+                        "value": 100
+                    },
+                    {
+                        "date": "20200330",
+                        "value": 99
+                    },
+                    {
+                        "date": "20200331",
+                        "value": 95
+                    },
+                    {
+                        "date": "20200401",
+                        "value": 100
+                    },
+                    {
+                        "date": "20200402",
+                        "value": 99
+                    },
+                    {
+                        "date": "20200403",
+                        "value": 98
+                    }
+                ]
+            },
+            {
+                "word": "海外",
+                "growth": {
+                    "short": "Up",
+                    "midium": "Up",
+                    "long": "Flat"
+                },
+                "graphs": [
+                    {
+                        "date": "20200326",
+                        "value": 100
+                    },
+                    {
+                        "date": "20200327",
+                        "value": 99
+                    },
+                    {
+                        "date": "20200328",
+                        "value": 99
+                    },
+                    {
+                        "date": "20200329",
+                        "value": 100
+                    },
+                    {
+                        "date": "20200330",
+                        "value": 99
+                    },
+                    {
+                        "date": "20200331",
+                        "value": 95
+                    },
+                    {
+                        "date": "20200401",
+                        "value": 100
+                    },
+                    {
+                        "date": "20200402",
+                        "value": 99
+                    },
+                    {
+                        "date": "20200403",
+                        "value": 98
+                    }
+                ]
+            },
+            {
+                "word": "いつ",
+                "growth": {
+                    "short": "Up",
+                    "midium": "Up",
+                    "long": "Flat"
+                },
+                "graphs": [
+                    {
+                        "date": "20200326",
+                        "value": 100
+                    },
+                    {
+                        "date": "20200327",
+                        "value": 99
+                    },
+                    {
+                        "date": "20200328",
+                        "value": 99
+                    },
+                    {
+                        "date": "20200329",
+                        "value": 100
+                    },
+                    {
+                        "date": "20200330",
+                        "value": 99
+                    },
+                    {
+                        "date": "20200331",
+                        "value": 95
+                    },
+                    {
+                        "date": "20200401",
+                        "value": 100
+                    },
+                    {
+                        "date": "20200402",
+                        "value": 99
+                    },
+                    {
+                        "date": "20200403",
+                        "value": 98
+                    }
+                ]
+            },
+            {
+                "word": "とは",
+                "growth": {
+                    "short": "Up",
+                    "midium": "Up",
+                    "long": "Flat"
+                },
+                "graphs": [
+                    {
+                        "date": "20200326",
+                        "value": 100
+                    },
+                    {
+                        "date": "20200327",
+                        "value": 99
+                    },
+                    {
+                        "date": "20200328",
+                        "value": 99
+                    },
+                    {
+                        "date": "20200329",
+                        "value": 100
+                    },
+                    {
+                        "date": "20200330",
+                        "value": 99
+                    },
+                    {
+                        "date": "20200331",
+                        "value": 95
+                    },
+                    {
+                        "date": "20200401",
+                        "value": 100
+                    },
+                    {
+                        "date": "20200402",
+                        "value": 99
+                    },
+                    {
+                        "date": "20200403",
+                        "value": 98
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "word": "イタリア",
+        "childSuggest": [
+            {
+                "word": "感染者数",
+                "growth": {
+                    "short": "Up",
+                    "midium": "Flat",
+                    "long": "Down"
+                },
+                "graphs": [
+                    {
+                        "date": "20200326",
+                        "value": 100
+                    },
+                    {
+                        "date": "20200327",
+                        "value": 99
+                    },
+                    {
+                        "date": "20200328",
+                        "value": 99
+                    },
+                    {
+                        "date": "20200329",
+                        "value": 100
+                    },
+                    {
+                        "date": "20200330",
+                        "value": 99
+                    },
+                    {
+                        "date": "20200331",
+                        "value": 95
+                    },
+                    {
+                        "date": "20200401",
+                        "value": 100
+                    },
+                    {
+                        "date": "20200402",
+                        "value": 99
+                    },
+                    {
+                        "date": "20200403",
+                        "value": 98
+                    }
+                ]
+            },
+            {
+                "word": "暴動",
+                "growth": {
+                    "short": "Up",
+                    "midium": "Up",
+                    "long": "Flat"
+                },
+                "graphs": [
+                    {
+                        "date": "20200326",
+                        "value": 100
+                    },
+                    {
+                        "date": "20200327",
+                        "value": 99
+                    },
+                    {
+                        "date": "20200328",
+                        "value": 99
+                    },
+                    {
+                        "date": "20200329",
+                        "value": 100
+                    },
+                    {
+                        "date": "20200330",
+                        "value": 99
+                    },
+                    {
+                        "date": "20200331",
+                        "value": 95
+                    },
+                    {
+                        "date": "20200401",
+                        "value": 100
+                    },
+                    {
+                        "date": "20200402",
+                        "value": 99
+                    },
+                    {
+                        "date": "20200403",
+                        "value": 98
+                    }
+                ]
+            },
+            {
+                "word": "日本人",
+                "growth": {
+                    "short": "Up",
+                    "midium": "Up",
+                    "long": "Flat"
+                },
+                "graphs": [
+                    {
+                        "date": "20200326",
+                        "value": 100
+                    },
+                    {
+                        "date": "20200327",
+                        "value": 99
+                    },
+                    {
+                        "date": "20200328",
+                        "value": 99
+                    },
+                    {
+                        "date": "20200329",
+                        "value": 100
+                    },
+                    {
+                        "date": "20200330",
+                        "value": 99
+                    },
+                    {
+                        "date": "20200331",
+                        "value": 95
+                    },
+                    {
+                        "date": "20200401",
+                        "value": 100
+                    },
+                    {
+                        "date": "20200402",
+                        "value": 99
+                    },
+                    {
+                        "date": "20200403",
+                        "value": 98
+                    }
+                ]
+            },
+            {
+                "word": "政府",
+                "growth": {
+                    "short": "Up",
+                    "midium": "Up",
+                    "long": "Flat"
+                },
+                "graphs": [
+                    {
+                        "date": "20200326",
+                        "value": 100
+                    },
+                    {
+                        "date": "20200327",
+                        "value": 99
+                    },
+                    {
+                        "date": "20200328",
+                        "value": 99
+                    },
+                    {
+                        "date": "20200329",
+                        "value": 100
+                    },
+                    {
+                        "date": "20200330",
+                        "value": 99
+                    },
+                    {
+                        "date": "20200331",
+                        "value": 95
+                    },
+                    {
+                        "date": "20200401",
+                        "value": 100
+                    },
+                    {
+                        "date": "20200402",
+                        "value": 99
+                    },
+                    {
+                        "date": "20200403",
+                        "value": 98
+                    }
+                ]
+            },
+            {
+                "word": "EU",
+                "growth": {
+                    "short": "Up",
+                    "midium": "Up",
+                    "long": "Flat"
+                },
+                "graphs": [
+                    {
+                        "date": "20200326",
+                        "value": 100
+                    },
+                    {
+                        "date": "20200327",
+                        "value": 99
+                    },
+                    {
+                        "date": "20200328",
+                        "value": 99
+                    },
+                    {
+                        "date": "20200329",
+                        "value": 100
+                    },
+                    {
+                        "date": "20200330",
+                        "value": 99
+                    },
+                    {
+                        "date": "20200331",
+                        "value": 95
+                    },
+                    {
+                        "date": "20200401",
+                        "value": 100
+                    },
+                    {
+                        "date": "20200402",
+                        "value": 99
+                    },
+                    {
+                        "date": "20200403",
+                        "value": 98
+                    }
+                ]
+            },
+            {
+                "word": "フランス",
+                "growth": {
+                    "short": "Up",
+                    "midium": "Up",
+                    "long": "Flat"
                 },
                 "graphs": [
                     {
