@@ -16,6 +16,7 @@ nodebrew等を利用して、Node.js v12.16.1 をインストール
 2. `npm ci`
 3. `npm run dev`
 
+http://localhost:3000 にアクセス  
 ホットリロードに対応しているため、コード変更時に自動的に反映される。
 
 
